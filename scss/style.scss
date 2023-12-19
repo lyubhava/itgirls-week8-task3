@@ -1,0 +1,81 @@
+@import "./fonts.scss";
+@import "./header.scss";
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Roboto Slab;
+    font-size: 20px;
+}
+
+
+.main {
+    position: relative;
+    background-image: url('../assets/main-image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+    .main-text {
+
+        h1 {
+            max-width: 542px;
+            margin:0 0 10px 126px;
+            font-family: Intro;
+            font-size: 60px;
+        }
+    
+        p {
+            max-width: 487px;
+            font-family: Roboto Slab;
+            font-size: 20px;
+            margin:0 0 30px 126px;
+        }
+    
+        button {
+            color: white;
+            font-size: 35px;
+            padding: 28px 90px 21px 33px;
+            border: none;
+            background-color: #5222D0;
+            border-radius: 100px;
+            position: relative;
+            margin-left: 116px;
+            font-family: Intro ;
+    
+            &::after {
+                content: '';
+                background-image: url('../assets/date.svg');
+                position: absolute;
+                width: 42px;
+                height: 29px;
+                margin-left: 16.5px;
+            }
+        }
+    }
+
+    .main-navigation {
+        max-width: 542px;
+        margin: 146px 0 0 126px;
+    
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            padding: 0;
+            flex-wrap: wrap;
+            
+            li {
+                a {
+                    text-decoration: none;
+                    font-family: Roboto Slab;
+                    font-size: 20px;
+                    color: #5222D0;
+                }
+            }
+        }
+    }
+}
+
+
+

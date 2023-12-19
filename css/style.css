@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap");
+@font-face {
+  font-family: Intro;
+  src: url("../assets/fonts-intro/IntroDemoCond-BlackCAPS.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 50px 0;
+}
+header .header-container button {
+  font-family: Intro;
+  font-size: 13px;
+  color: white;
+  background-color: #5222D0;
+  border-radius: 100px;
+  border: none;
+  padding: 14px 33px 11px 16px;
+  position: relative;
+}
+header .header-container button::after {
+  content: "";
+  background-image: url("../assets/bag.svg");
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: Roboto Slab;
+  font-size: 20px;
+}
+
+.main {
+  position: relative;
+  background-image: url("../assets/main-image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.main .main-text h1 {
+  max-width: 542px;
+  margin: 0 0 10px 126px;
+  font-family: Intro;
+  font-size: 60px;
+}
+.main .main-text p {
+  max-width: 487px;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  margin: 0 0 30px 126px;
+}
+.main .main-text button {
+  color: white;
+  font-size: 35px;
+  padding: 28px 90px 21px 33px;
+  border: none;
+  background-color: #5222D0;
+  border-radius: 100px;
+  position: relative;
+  margin-left: 116px;
+  font-family: Intro;
+}
+.main .main-text button::after {
+  content: "";
+  background-image: url("../assets/date.svg");
+  position: absolute;
+  width: 42px;
+  height: 29px;
+  margin-left: 16.5px;
+}
+.main .main-navigation {
+  max-width: 542px;
+  margin: 146px 0 0 126px;
+}
+.main .main-navigation ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.main .main-navigation ul li a {
+  text-decoration: none;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  color: #5222D0;
+}
+
+/*# sourceMappingURL=style.css.map */

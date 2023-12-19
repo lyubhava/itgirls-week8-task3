@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap");
+@font-face {
+  font-family: Intro;
+  src: url("../assets/fonts-intro/IntroDemoCond-BlackCAPS.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 50px 0;
+}
+header .header-container button {
+  font-family: Intro;
+  font-size: 13px;
+  color: white;
+  background-color: #5222D0;
+  border-radius: 100px;
+  border: none;
+  padding: 14px 33px 11px 16px;
+  position: relative;
+}
+header .header-container button::after {
+  content: "";
+  background-image: url("../assets/bag.svg");
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+}
+
+.main-catalog h1 {
+  font-size: 60px;
+  font-family: Intro, sans-serif;
+  margin-left: 76px;
+}
+
+.section-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.section-main .section-main-wrapper {
+  max-width: 365px;
+  padding: 25px 40px;
+}
+.section-main .section-main-wrapper h2 {
+  font-family: Intro, sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+}
+.section-main .section-main-wrapper h2:last-child {
+  color: white;
+}
+.section-main .section-main-wrapper p {
+  font-family: Roboto Slab;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.section-main .section-main-wrapper.border {
+  border: 1px solid #EC615B;
+  width: 440px;
+  flex-shrink: 0;
+}
+.section-main .section-main-wrapper.section-main-wrapper-form {
+  background-color: #EC615B;
+  max-width: 365px;
+}
+.section-main .section-main-wrapper.section-main-wrapper-form h2 {
+  color: white;
+  margin: 0;
+}
+.section-main .section-main-wrapper.section-main-wrapper-form input {
+  max-width: 323px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-family: Roboto Slab;
+  font-size: 20px;
+}
+.section-main .section-main-wrapper.section-main-wrapper-form button {
+  font-family: Intro;
+  font-size: 13px;
+  color: white;
+  background-color: #5222D0;
+  border-radius: 100px;
+  border: none;
+  padding: 16px;
+  margin-top: 37px;
+}
+
+form[name=subscription-form] {
+  padding: 25px 25px 55px;
+}
+form[name=subscription-form] input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 9px 9px 14px;
+}
+
+.main-navigation {
+  max-width: 542px;
+  margin: 146px 0 0 126px;
+}
+.main-navigation ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.main-navigation ul li a {
+  text-decoration: none;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=catalog.css.map */
